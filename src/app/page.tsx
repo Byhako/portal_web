@@ -4,30 +4,6 @@ import styles from "./page.module.css";
 export default function Home() {
   return (
     <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
-
       <div className={styles.center}>
         <Image
           className={styles.logo}
@@ -39,57 +15,106 @@ export default function Home() {
         />
       </div>
 
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
+      <h1>The React Framework for the Web</h1>
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
+      <table className={styles.table}>
+        <tr className={styles.tr}>
+          <th className={styles.th}>Company</th>
+          <th className={styles.th}>Contact</th>
+          <th className={styles.th}>Country</th>
+        </tr>
+        <tr className={styles.tr}>
+          <td className={styles.td}>Alfreds Futterkiste</td>
+          <td className={styles.td}>Maria Anders</td>
+          <td className={styles.td}>Germany</td>
+        </tr>
+        <tr className={styles.tr}>
+          <td className={styles.td}>Centro comercial Moctezuma</td>
+          <td className={styles.td}>Francisco Chang</td>
+          <td className={styles.td}>Mexico</td>
+        </tr>
+        <tr className={styles.tr}>
+          <td className={styles.td}>Ernst Handel</td>
+          <td className={styles.td}>Roland Mendel</td>
+          <td className={styles.td}>Austria</td>
+        </tr>
+        <tr className={styles.tr}>
+          <td className={styles.td}>Island Trading</td>
+          <td className={styles.td}>Helen Bennett</td>
+          <td className={styles.td}>UK</td>
+        </tr>
+        <tr className={styles.tr}>
+          <td className={styles.td}>Laughing Bacchus Winecellars</td>
+          <td className={styles.td}>Yoshi Tannamuri</td>
+          <td className={styles.td}>Canada</td>
+        </tr>
+        <tr className={styles.tr}>
+          <td className={styles.td}>Magazzini Alimentari Riuniti</td>
+          <td className={styles.td}>Giovanni Rovelli</td>
+          <td className={styles.td}>Italy</td>
+        </tr>
+        <tr className={styles.tr}>
+          <td className={styles.td}>Gatos Anonimos</td>
+          <td className={styles.td}>Toto Ruffini</td>
+          <td className={styles.td}>France</td>
+        </tr>
+        <tr className={styles.tr}>
+          <td className={styles.td}>Toe Animation</td>
+          <td className={styles.td}>Akihito Fukishu</td>
+          <td className={styles.td}>Japan</td>
+        </tr>
+        <tr className={styles.tr}>
+          <td className={styles.td}>Electronic Power</td>
+          <td className={styles.td}>Oswaldo Reiner Frigmman</td>
+          <td className={styles.td}>England</td>
+        </tr>
+        <tr className={styles.tr}>
+          <td className={styles.td}>Art of Mitic History</td>
+          <td className={styles.td}>Antonela de la Cruz</td>
+          <td className={styles.td}>Mexico</td>
+        </tr>
+        <tr className={styles.tr}>
+          <td className={styles.td}>Maderas Express</td>
+          <td className={styles.td}>Pepo Anton Fragatzi</td>
+          <td className={styles.td}>Italy</td>
+        </tr>
+        <tr className={styles.tr}>
+          <td className={styles.td}>Textiles de mi Tierra</td>
+          <td className={styles.td}>Margara Cecilia Tomsom</td>
+          <td className={styles.td}>Peru</td>
+        </tr>
+        <tr className={styles.tr}>
+          <td className={styles.td}>Gatos Anonimos</td>
+          <td className={styles.td}>Toto Ruffini</td>
+          <td className={styles.td}>France</td>
+        </tr>
+        <tr className={styles.tr}>
+          <td className={styles.td}>Toe Animation</td>
+          <td className={styles.td}>Akihito Fukishu</td>
+          <td className={styles.td}>Japan</td>
+        </tr>
+        <tr className={styles.tr}>
+          <td className={styles.td}>Electronic Power</td>
+          <td className={styles.td}>Oswaldo Reiner Frigmman</td>
+          <td className={styles.td}>England</td>
+        </tr>
+        <tr className={styles.tr}>
+          <td className={styles.td}>Art of Mitic History</td>
+          <td className={styles.td}>Antonela de la Cruz</td>
+          <td className={styles.td}>Mexico</td>
+        </tr>
+        <tr className={styles.tr}>
+          <td className={styles.td}>Maderas Express</td>
+          <td className={styles.td}>Pepo Anton Fragatzi</td>
+          <td className={styles.td}>Italy</td>
+        </tr>
+        <tr className={styles.tr}>
+          <td className={styles.td}>Textiles de mi Tierra</td>
+          <td className={styles.td}>Margara Cecilia Tomsom</td>
+          <td className={styles.td}>Peru</td>
+        </tr>
+      </table>
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
     </main>
   );
 }
