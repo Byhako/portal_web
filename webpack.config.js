@@ -1,12 +1,20 @@
 const webpack = require('webpack');
 const next = require('next');
+const NextFederationPlugin = require('@module-federation/nextjs-mf');
 
 const config = {
+
   mode: 'development',
   devtool: 'source-map',
   resolve: {
     extensions: ['.js', '.jsx', '.ts', '.tsx'],
   },
+  plugins: [
+    new NextFederationPlugin({
+      name: 'mfe-fastStore',
+      filename: 'remoteEntry.js'
+    })
+  ],
   module: {
     rules: [
       {
