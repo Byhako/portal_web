@@ -11,8 +11,16 @@ const config = {
   },
   plugins: [
     new NextFederationPlugin({
-      name: 'mfe-fastStore',
-      filename: 'remoteEntry.js'
+      name: 'portal_web', // Nombre de tu aplicación (puede ser cualquier cadena)
+      filename: 'static/chunks/remoteEntry.js', // Ruta donde se generará el archivo de entrada remota
+      exposes: {
+        // Define los módulos que deseas exponer a otras aplicaciones
+        // Por ejemplo: 'components/Button'
+      },
+      shared: {
+        // Define las dependencias compartidas entre aplicaciones
+        // Por ejemplo: 'react', 'react-dom'
+      }
     })
   ],
   module: {
