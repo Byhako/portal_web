@@ -1,0 +1,14 @@
+.button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  background-color: blueviolet;
+  color: #eee;
+  border-radius: 5px;
+  width: 200px;
+  height: 75px;
+  cursor: pointer;
+  margin-top: 15px;
+}

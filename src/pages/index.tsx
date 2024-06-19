@@ -1,5 +1,7 @@
 import Image from "next/image";
-import styles from "./page.module.css";
+import styles from "./styles.module.css";
+import Button from "@/components/Button";
+import Title from "@/components/Title";
 
 export default function Home() {
   return (
@@ -11,11 +13,11 @@ export default function Home() {
           alt="Next.js Logo"
           width={180}
           height={37}
-          priority
         />
       </div>
 
-      <h1>The React Framework for the Web</h1>
+      <Title text='The React Framework for the Web' />
+      <Button text='Welcome' />
 
       <table className={styles.table}>
         <thead>
