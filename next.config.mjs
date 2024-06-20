@@ -9,7 +9,8 @@ const nextConfig = {
         name: 'portal_web', // Nombre de tu aplicación (puede ser cualquier cadena)
         filename: 'public/remoteEntry.js', // Ruta donde se generará el archivo de entrada remota
         exposes: {
-          './page': './src/pages/index.tsx',
+          './page': './src/pages/_document.tsx',
+          './button': './src/components/Button/index.tsx'
           // Define los módulos que deseas exponer a otras aplicaciones
           // Por ejemplo: 'components/Button'
         },
