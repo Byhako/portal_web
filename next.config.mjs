@@ -7,7 +7,7 @@ const nextConfig = {
     config.plugins.push(
       new NextFederationPlugin({
         name: 'portal_web', // Nombre de tu aplicación (puede ser cualquier cadena)
-        filename: 'static/chunks/remoteEntry.js', // Ruta donde se generará el archivo de entrada remota
+        filename: 'public/remoteEntry.js', // Ruta donde se generará el archivo de entrada remota
         exposes: {
           './page': './src/pages/index.tsx',
           // Define los módulos que deseas exponer a otras aplicaciones
