@@ -16,7 +16,7 @@ export default function Home() {
         />
       </div>
 
-      <Title text='The React Framework for the Web' />
+      <Title text='The React for the Web' />
       <Button text='Welcome' />
 
       <table className={styles.table}>
