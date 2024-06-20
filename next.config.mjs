@@ -14,10 +14,7 @@ const nextConfig = {
           // Define los módulos que deseas exponer a otras aplicaciones
           // Por ejemplo: 'components/Button'
         },
-        shared: {
-          // Define las dependencias compartidas entre aplicaciones
-          // Por ejemplo: 'react', 'react-dom'
-        }
+        shared: ['react', 'react-dom']
       })
     )
 
