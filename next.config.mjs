@@ -12,7 +12,7 @@ const nextConfig = {
         exposes: {
           './Module': './src/pages/_document.tsx',
           './button': './src/components/Button/index.tsx',
-          './web-components': './_app.tsx',
+          './web-components': './src/pages/_app.tsx',
         },
         shared: ['react', 'react-dom']
       })
